@@ -6,6 +6,10 @@
     border: 2px solid black;
     display: flex;
     flex-direction: row; 
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: baseline;
+    align-self: flex-end;
 }
 
 h1 {
@@ -13,8 +17,8 @@ h1 {
 }
 
 #container div {
-    height: 300px;
-    width: 500px;
+    height: 100px;
+    width: 300px;
     color: white;
     text-align: center;
     font-size: 1.5em;
